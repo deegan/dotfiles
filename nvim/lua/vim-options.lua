@@ -23,7 +23,9 @@ vim.keymap.set("n", "<C-d>","<C-d>zz", { desc = "Center half-paging"} )
 vim.keymap.set("n", "<C-u>","<C-u>zz", { desc = "Center half-paging"} )
 
 -- barbar
-vim.keymap.set("n", "<Space>x", ":<Cmd>BufferClose<CR><CR>")
+vim.keymap.set("n", "<Leader>x", ":<Cmd>BufferClose<CR><CR>")
+vim.keymap.set("n", "<Leader>j", ":<Cmd>BufferPrevious<CR><CR>")
+vim.keymap.set("n", "<Leader>k", ":<Cmd>BufferNext<CR><CR>")
 
 -- Remove trailing whitespaces.
 vim.keymap.set('n', '<Leader>wt', [[:%s/\s\+$//e<cr>]])

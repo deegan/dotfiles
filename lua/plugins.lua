@@ -1,3 +1,0 @@
--- all the plugins
-return {
-}
