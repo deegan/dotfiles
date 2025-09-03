@@ -1,6 +1,8 @@
 # dotfiles
 - tmux
 - neovim
+- kitty
+- yazi
 
 # What do?
 - git clone https://github.com/deegan/dotfiles.git ~/.config/
